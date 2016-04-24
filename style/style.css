@@ -42,6 +42,7 @@ header {
 .menu-items-list li {
   display: inline-block;
   height: 100%;
+  vertical-align: middle;
 }
 
 .menu-items-list.left {
@@ -52,10 +53,6 @@ header {
 .menu-items-list.right {
   float: right;
   font-size: 0.6em;
-}
-
-.menu-items-list.right li {
-  padding-left: 3em;
 }
 
 .top-bar-link {
@@ -129,6 +126,9 @@ a.footer-icon:before {
   .top-bar {
     position: fixed;
   }
+  .menu-items-list.right li {
+    padding-left: 3em;
+  }
   .footer-icons-label {
     display: none;
   }
@@ -136,6 +136,21 @@ a.footer-icon:before {
 @media (max-width: 425px) {
   body {
     font-size: 15px;
+  }
+  .top-bar-link.work:before {
+    content: '\e803';
+    font-family: "fontello";
+    margin-right: 0.9em;
+    font-size: 0.9em;
+  }
+  .top-bar-link.about:after {
+    content: '\e804';
+    font-family: "fontello";
+    margin-left: 0.9em;
+    font-size: 0.9em;
+  }
+  .top-bar-link.active {
+    display: none;
   }
   .main-container, footer {
     width: 80%;
@@ -309,5 +324,8 @@ a.footer-icon:before {
   }
   .about-section-label {
     font-size: 0.8em;
+  }
+  .about-section-block {
+    font-size: 0.7em;
   }
 }
