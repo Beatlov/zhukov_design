@@ -87,6 +87,10 @@ header {
   max-width: 1000px;
 }
 
+.main-container.thin {
+  max-width: 750px;
+}
+
 footer {
   margin: 2em auto;
 }
@@ -210,4 +214,71 @@ a.footer-icon:before {
 }
 
 /* about page styles */
+.about-wrapper {
+  width: 80%;
+}
 
+.about-main-label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  width: 45%;
+  line-height: 1.8em;
+  margin: 3em 0;
+}
+
+.about-section {
+  margin-bottom: 3.5em;
+}
+
+.about-section-label {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-bottom: 2.5em;
+}
+
+.about-section-block {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.6em;
+  line-height: 2.5em;
+  color: #818181;
+}
+
+.about-section-list {
+  padding-left: 1.2em;
+}
+
+.experience-block {
+  line-height: 2em;
+  margin-bottom: 2.5em;
+}
+
+.experience-position, .experience-company, .experience-time {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.experience-position {
+  text-decoration: underline;
+  color: #1b252e;
+}
+
+.experience-company {
+  color: #818181;
+}
+
+.experience-time {
+  color: #b4b4b4;
+  font-size: 0.9em;
+}
+
+@media (max-width: 425px) {
+  .about-main-label {
+    width: 100%;
+  }
+}
