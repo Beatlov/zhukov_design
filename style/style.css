@@ -159,6 +159,9 @@ a.footer-icon:before {
   .main-container, footer {
     width: 80%;
   }
+  footer {
+    margin-bottom: 4em;
+  }
   .top-bar-section {
     width: 80%;
   }
