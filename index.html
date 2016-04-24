@@ -42,7 +42,22 @@
         </header>
 
         <section role="main" class="main-container" id="content_section">
-            <div class="gallery-section">
+
+            <!-- gallery section selector for mobile -->
+            <input type="radio" name="gallery_selector" class="gallery-selector-radio" id="first_section" checked>
+            <input type="radio" name="gallery_selector" class="gallery-selector-radio" id="second_section">
+            <div class="gallery-section-selector">
+                <label class="gallery-section-label left" for="first_section">
+                    UI/UX Design
+                </label>
+                <label class="gallery-section-label right" for="second_section">
+                    Graphic Design
+                </label>
+                <div class="clear"></div>
+            </div>
+            <!-- /gallery section selector for mobile -->
+
+            <div class="gallery-section first">
                 <label class="gallery-section-label">
                     UI/UX Design
                 </label>
@@ -89,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gallery-section">
+            <div class="gallery-section second">
                 <label class="gallery-section-label">
                     Graphic Design
                 </label>
