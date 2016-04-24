@@ -257,7 +257,6 @@ a.footer-icon:before {
 .gallery-item-image-wrapper {
   width: 95%;
   display: block;
-  background: red;
   position: relative;
   overflow: hidden;
 }
