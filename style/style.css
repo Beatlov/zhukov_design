@@ -180,7 +180,6 @@ a.footer-icon:before {
 
 
 /* gallery page styles */
-
 .gallery-selector-radio {
   display: none;
 }
@@ -384,6 +383,7 @@ a.footer-icon:before {
   font-size: 0.9em;
 }
 
+/* about page media */
 @media (max-width: 425px) {
   .about-main-label {
     width: 100%;
