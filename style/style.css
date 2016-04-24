@@ -215,7 +215,7 @@ a.footer-icon:before {
 
 .gallery-item-label {
   display: block;
-  font-size: 0.7em;
+  font-size: 0.8em;
   margin-top: 2em;
 }
 
@@ -274,7 +274,7 @@ a.footer-icon:before {
 }
 
 .about-section-label {
-  font-size: 0.6em;
+  font-size: 0.8em;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -284,8 +284,8 @@ a.footer-icon:before {
 .about-section-block {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 0.6em;
-  line-height: 2.5em;
+  font-size: 0.7em;
+  line-height: 2.3em;
   color: #818181;
 }
 
@@ -321,9 +321,6 @@ a.footer-icon:before {
 @media (max-width: 425px) {
   .about-main-label {
     width: 100%;
-  }
-  .about-section-label {
-    font-size: 0.8em;
   }
   .about-section-block {
     font-size: 0.7em;
