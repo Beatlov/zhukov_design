@@ -17,7 +17,6 @@ header {
   line-height: 5em;
   background: #242a31;
   color: #fff;
-  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
@@ -95,6 +94,14 @@ footer {
   margin: 2em auto;
 }
 
+.footer-icons-label {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-bottom: 2em;
+}
+
 .footer-icon {
   color: #babbbd;
   text-decoration: none;
@@ -118,6 +125,14 @@ a.footer-icon:before {
 }
 
 /* common media */
+@media (min-width: 426px) {
+  .top-bar {
+    position: fixed;
+  }
+  .footer-icons-label {
+    display: none;
+  }
+}
 @media (max-width: 425px) {
   body {
     font-size: 15px;
@@ -127,6 +142,17 @@ a.footer-icon:before {
   }
   .top-bar-section {
     width: 80%;
+  }
+  .icon-behance {
+    color: #0ca3d1;
+  }
+
+  .icon-dribbble {
+    color: #f26798;
+  }
+
+  .icon-vkontakte {
+    color: #4c75a3;
   }
 }
 
@@ -280,5 +306,8 @@ a.footer-icon:before {
 @media (max-width: 425px) {
   .about-main-label {
     width: 100%;
+  }
+  .about-section-label {
+    font-size: 0.8em;
   }
 }
